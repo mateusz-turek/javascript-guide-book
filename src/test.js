@@ -5,6 +5,9 @@ const bigInt = require('./3/2/5/BigInt');
 const dateAndTime = require('./3/2/6/DateAndTime');
 const showLove = require('./3/3/intro');
 const characterLiterals = require('./3/3/1/CharacterLiterals');
+const showEscapeSequencesInCharacterLiterals = require('./3/3/2/EscapeSequencesInCharacterLiterals');
+const showStringOperations = require('./3/3/3/StringOperations');
+const showTemplateLiterals = require('./3/3/4/TemplateLiterals');
 
 integerLiterals();
 floatingPointLiterals();
@@ -15,4 +18,7 @@ bigInt.showBigInt();
 dateAndTime();
 showLove();
 characterLiterals();
+showEscapeSequencesInCharacterLiterals();
+showStringOperations();
+showTemplateLiterals();
 
