@@ -4,6 +4,7 @@ const arithmeticOperations = require('./3/2/3/ArithmeticOperations');
 const bigInt = require('./3/2/5/BigInt');
 const dateAndTime = require('./3/2/6/DateAndTime');
 const showLove = require('./3/3/intro');
+const characterLiterals = require('./3/3/1/CharacterLiterals');
 
 integerLiterals();
 floatingPointLiterals();
@@ -13,4 +14,5 @@ arithmeticOperations.differentValuesOperations();
 bigInt.showBigInt();
 dateAndTime();
 showLove();
+characterLiterals();
 
