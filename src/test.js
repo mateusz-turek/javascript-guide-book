@@ -9,6 +9,8 @@ const showEscapeSequencesInCharacterLiterals = require('./3/3/2/EscapeSequencesI
 const showStringOperations = require('./3/3/3/StringOperations');
 const showTemplateLiterals = require('./3/3/4/TemplateLiterals');
 const regexShow = require('./3/3/5/regex');
+const showFalsyValues = require('./3/4/falsy');
+const symbols = require('./3/6/Symbols');
 
 integerLiterals();
 floatingPointLiterals();
@@ -23,4 +25,6 @@ showEscapeSequencesInCharacterLiterals();
 showStringOperations();
 showTemplateLiterals();
 regexShow();
+showFalsyValues();
+symbols();
 
