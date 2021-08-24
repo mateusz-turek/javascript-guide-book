@@ -11,6 +11,7 @@ const showTemplateLiterals = require('./3/3/4/TemplateLiterals');
 const regexShow = require('./3/3/5/regex');
 const showFalsyValues = require('./3/4/falsy');
 const symbols = require('./3/6/Symbols');
+const mutableAndImmutable = require('./3/8/MutableAndImmutable');
 
 integerLiterals();
 floatingPointLiterals();
@@ -27,4 +28,5 @@ showTemplateLiterals();
 regexShow();
 showFalsyValues();
 symbols();
+mutableAndImmutable();
 
