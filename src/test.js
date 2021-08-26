@@ -12,6 +12,7 @@ const regexShow = require('./3/3/5/regex');
 const showFalsyValues = require('./3/4/falsy');
 const symbols = require('./3/6/Symbols');
 const mutableAndImmutable = require('./3/8/MutableAndImmutable');
+const typesConversion = require('./3/9/TypesConversion');
 
 integerLiterals();
 floatingPointLiterals();
@@ -29,4 +30,7 @@ regexShow();
 showFalsyValues();
 symbols();
 mutableAndImmutable();
+typesConversion.someConversions();
+typesConversion.comparingWithDoubleEqualitySymbol();
+typesConversion.differentSystemConversion();
 
