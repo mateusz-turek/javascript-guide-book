@@ -13,6 +13,7 @@ const showFalsyValues = require('./3/4/falsy');
 const symbols = require('./3/6/Symbols');
 const mutableAndImmutable = require('./3/8/MutableAndImmutable');
 const typesConversion = require('./3/9/TypesConversion');
+const showDestructuring = require('./3/10/Destructuring');
 
 integerLiterals();
 floatingPointLiterals();
@@ -33,4 +34,7 @@ mutableAndImmutable();
 typesConversion.someConversions();
 typesConversion.comparingWithDoubleEqualitySymbol();
 typesConversion.differentSystemConversion();
+typesConversion.toNumberConversion();
+typesConversion.toStringAndValueOf();
+showDestructuring();
 

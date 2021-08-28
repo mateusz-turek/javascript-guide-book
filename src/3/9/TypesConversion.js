@@ -46,6 +46,38 @@ const differentSystemConversion = () => {
     console.log("0x"+number.toString(16));
 }
 
+const toNumberConversion = () => {
+    let number = 123456.789
+    console.log(number.toFixed(0));
+    console.log(number.toFixed(2));
+    console.log(number.toFixed(5));
+    console.log(number.toExponential(1));
+    console.log(number.toExponential(5));
+    console.log(number.toExponential(8));
+    console.log(number.toPrecision(5));
+    console.log(number.toPrecision(7));
+    console.log(number.toPrecision(9));
+}
+
+const toStringAndValueOf = () => {
+    let object = {
+        name: 'sample',
+        name2 : 'sampleName',
+        value: 123,
+        innerObject : {
+            name: 'samplename',
+            name2: new Date(2021,2,21)
+            }
+        };
+    console.log(object.toString());
+    let date = new Date(2021,8,28);
+    console.log(date.toString());
+    console.log(date.valueOf());
+    console.log(object.valueOf());
+}
+
 module.exports.someConversions = showSomeConversion;
 module.exports.differentSystemConversion = differentSystemConversion;
 module.exports.comparingWithDoubleEqualitySymbol = comparingWithDoubleEqualitySymbol;
+module.exports.toNumberConversion = toNumberConversion;
+module.exports.toStringAndValueOf = toStringAndValueOf;
