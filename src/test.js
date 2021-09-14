@@ -16,6 +16,7 @@ const typesConversion = require('./3/9/TypesConversion');
 const showDestructuring = require('./3/10/Destructuring');
 const showConditionalAccess = require('./4/4/ConditionalAccessToProperty');
 const showInUsage = require('./4/9/inAndInstanceOf');
+const showAndOperatorDifferentUsage = require('./4/10/LogicalOperatorsOtherUsage');
 
 integerLiterals();
 floatingPointLiterals();
@@ -42,4 +43,5 @@ showDestructuring();
 showConditionalAccess();
 showInUsage.InUsage();
 showInUsage.InstanceOfUsage();
+showAndOperatorDifferentUsage();
 
