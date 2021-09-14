@@ -15,6 +15,7 @@ const mutableAndImmutable = require('./3/8/MutableAndImmutable');
 const typesConversion = require('./3/9/TypesConversion');
 const showDestructuring = require('./3/10/Destructuring');
 const showConditionalAccess = require('./4/4/ConditionalAccessToProperty');
+const showInUsage = require('./4/9/inAndInstanceOf');
 
 integerLiterals();
 floatingPointLiterals();
@@ -39,4 +40,6 @@ typesConversion.toNumberConversion();
 typesConversion.toStringAndValueOf();
 showDestructuring();
 showConditionalAccess();
+showInUsage.InUsage();
+showInUsage.InstanceOfUsage();
 
