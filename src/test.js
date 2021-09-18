@@ -17,6 +17,8 @@ const showDestructuring = require('./3/10/Destructuring');
 const showConditionalAccess = require('./4/4/ConditionalAccessToProperty');
 const showInUsage = require('./4/9/inAndInstanceOf');
 const showAndOperatorDifferentUsage = require('./4/10/LogicalOperatorsOtherUsage');
+const showEvalExample = require('./4/12/evalExample');
+const showDoubleQuotationMarkUsage = require('./4/13/DoubleQuestionMarkOperator');
 
 integerLiterals();
 floatingPointLiterals();
@@ -44,4 +46,6 @@ showConditionalAccess();
 showInUsage.InUsage();
 showInUsage.InstanceOfUsage();
 showAndOperatorDifferentUsage();
+showEvalExample();
+showDoubleQuotationMarkUsage();
 
