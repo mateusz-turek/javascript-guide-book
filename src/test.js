@@ -19,6 +19,11 @@ const showInUsage = require('./4/9/inAndInstanceOf');
 const showAndOperatorDifferentUsage = require('./4/10/LogicalOperatorsOtherUsage');
 const showEvalExample = require('./4/12/evalExample');
 const showDoubleQuotationMarkUsage = require('./4/13/DoubleQuestionMarkOperator');
+const loops = require('./5/4/loops');
+const labels = require('./5/5/labels');
+const withUsage = require('./5/6/withInstruction');
+const debuggerUsage = require('./5/6/debuggerUsage');
+const showCreatingObjects = require('./6/2/CreatingObjects');
 
 integerLiterals();
 floatingPointLiterals();
@@ -48,4 +53,11 @@ showInUsage.InstanceOfUsage();
 showAndOperatorDifferentUsage();
 showEvalExample();
 showDoubleQuotationMarkUsage();
+loops.showForLoopWithManyVariables();
+loops.showForOfExample();
+loops.showForInExample();
+labels.labelUsage();
+withUsage();
+debuggerUsage();
+showCreatingObjects();
 
