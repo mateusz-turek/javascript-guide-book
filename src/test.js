@@ -24,6 +24,12 @@ const labels = require('./5/5/labels');
 const withUsage = require('./5/6/withInstruction');
 const debuggerUsage = require('./5/6/debuggerUsage');
 const showCreatingObjects = require('./6/2/CreatingObjects');
+const showValueChecks = require('./6/5/ValueChecks');
+const methodInsideObject = require('./6/9/objectsWithMethods');
+const showObjectExamples = require('./6/10/ObjectsExamples');
+const showStretchOperatorUsage = require('./6/10/StretchOperator');
+const showMethodUsage = require('./6/10/ObjectsWithMethods');
+const objectsWithAccessors = require('./6/10/ObjectsWithGetterSetter');
 
 integerLiterals();
 floatingPointLiterals();
@@ -60,4 +66,10 @@ labels.labelUsage();
 withUsage();
 debuggerUsage();
 showCreatingObjects();
-
+showValueChecks();
+methodInsideObject();
+showObjectExamples();
+showStretchOperatorUsage();
+showMethodUsage();
+objectsWithAccessors.gs1();
+objectsWithAccessors.gs2();
