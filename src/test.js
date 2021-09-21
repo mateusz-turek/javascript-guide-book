@@ -30,6 +30,7 @@ const showObjectExamples = require('./6/10/ObjectsExamples');
 const showStretchOperatorUsage = require('./6/10/StretchOperator');
 const showMethodUsage = require('./6/10/ObjectsWithMethods');
 const objectsWithAccessors = require('./6/10/ObjectsWithGetterSetter');
+const showArrayCreation = require('./7/1/ArrayCreation');
 
 integerLiterals();
 floatingPointLiterals();
@@ -73,3 +74,8 @@ showStretchOperatorUsage();
 showMethodUsage();
 objectsWithAccessors.gs1();
 objectsWithAccessors.gs2();
+showArrayCreation.createArrayWithArrayFrom();
+showArrayCreation.createArrayWithArrayOf();
+showArrayCreation.createArrayWithConstructor();
+showArrayCreation.createArrayWithLiteral();
+showArrayCreation.createArrayWithStretch();
