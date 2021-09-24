@@ -32,6 +32,7 @@ const showMethodUsage = require('./6/10/ObjectsWithMethods');
 const objectsWithAccessors = require('./6/10/ObjectsWithGetterSetter');
 const showArrayCreation = require('./7/1/ArrayCreation');
 const showArrayIterationMethods = require('./7/8/IterationMethods');
+const showFlatMethodUsage = require('./7/8/FlatAndFlatMap');
 
 integerLiterals();
 floatingPointLiterals();
@@ -89,3 +90,6 @@ showArrayIterationMethods.showSomeMethod();
 showArrayIterationMethods.showEveryMethod();
 showArrayIterationMethods.showReduce();
 showArrayIterationMethods.showReduceRight();
+showFlatMethodUsage.showFlatWithDifferentLevels();
+showFlatMethodUsage.showFlatMap();
+showFlatMethodUsage.showConcat();
