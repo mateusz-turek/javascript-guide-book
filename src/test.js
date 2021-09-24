@@ -31,7 +31,7 @@ const showStretchOperatorUsage = require('./6/10/StretchOperator');
 const showMethodUsage = require('./6/10/ObjectsWithMethods');
 const objectsWithAccessors = require('./6/10/ObjectsWithGetterSetter');
 const showArrayCreation = require('./7/1/ArrayCreation');
-const showArrayIterationMethods = require('./7/9/IterationMethods');
+const showArrayIterationMethods = require('./7/8/IterationMethods');
 
 integerLiterals();
 floatingPointLiterals();
@@ -83,3 +83,9 @@ showArrayCreation.createArrayWithStretch();
 showArrayIterationMethods.showFilterMethod();
 showArrayIterationMethods.showForEachMethod();
 showArrayIterationMethods.showMapMethod();
+showArrayIterationMethods.showFindIndexMethod();
+showArrayIterationMethods.showFindMethod();
+showArrayIterationMethods.showSomeMethod();
+showArrayIterationMethods.showEveryMethod();
+showArrayIterationMethods.showReduce();
+showArrayIterationMethods.showReduceRight();
