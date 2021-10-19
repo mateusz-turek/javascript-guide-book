@@ -38,7 +38,7 @@ const sliceSpliceFillCopy = require('./7/8/SliceSpliceFillCopyWithin');
 const searchingAndSortingMethods = require('./7/8/SearchingAndSortingMethods');
 const join = require('./7/8/JoinAndStaticFunctions');
 const thisIssue = require('./8/2/This');
-const functionParameters = require('./8/3/DefaultArguments');
+const functionParameters = require('./8/3/DefaultAndRestArguments');
 
 integerLiterals();
 floatingPointLiterals();
@@ -114,5 +114,7 @@ searchingAndSortingMethods.showReverse();
 join.showJoin();
 thisIssue.showThisIssue();
 functionParameters.showDefaultParametersUsage();
+functionParameters.showRestArguments();
+functionParameters.showNestedFunctionWithVarargs();
 
 
