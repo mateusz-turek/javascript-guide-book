@@ -37,6 +37,7 @@ const pushPopShiftUnshift = require('./7/8/PushPopShiftUnshift');
 const sliceSpliceFillCopy = require('./7/8/SliceSpliceFillCopyWithin');
 const searchingAndSortingMethods = require('./7/8/SearchingAndSortingMethods');
 const join = require('./7/8/JoinAndStaticFunctions');
+const thisIssue = require('./8/2/This');
 
 integerLiterals();
 floatingPointLiterals();
@@ -110,5 +111,6 @@ searchingAndSortingMethods.showIncludes();
 searchingAndSortingMethods.showSort();
 searchingAndSortingMethods.showReverse();
 join.showJoin();
+thisIssue.showThisIssue();
 
 
