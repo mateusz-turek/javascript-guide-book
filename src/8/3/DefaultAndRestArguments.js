@@ -54,7 +54,8 @@ const showNestedFunctionWithVarargs = () => {
         return sum;
     }
 
-    timed(benchmark)(10000000);
+    let something = timed(benchmark)(10000000);
+    console.log(something);
 }
 
 module.exports.showDefaultParametersUsage = showDefaultParametersUsage;
