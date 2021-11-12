@@ -22,7 +22,7 @@ const showRestArguments = () => {
         let sum = 0;
         numbers.forEach(digit => {
             let condition = !isNaN(digit);
-            if (condition){
+            if (condition) {
                 sum +=digit;
             }
         });
@@ -54,7 +54,7 @@ const showNestedFunctionWithVarargs = () => {
         return sum;
     }
 
-    let something = timed(benchmark)(10000000);
+    let something = timed(benchmark)(1000000);
     console.log(something);
 }
 
