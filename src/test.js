@@ -40,6 +40,8 @@ const join = require('./7/8/JoinAndStaticFunctions');
 const thisIssue = require('./8/2/This');
 const functionParameters = require('./8/3/DefaultAndRestArguments');
 const functionTypes = require('./8/3/ArgumentTypesValidation');
+const functionAsObjects = require('./8/3/FunctionsAsObjects');
+const functionAttribute = require('./8/3/FunctionAttributes');
 
 integerLiterals();
 floatingPointLiterals();
@@ -118,5 +120,7 @@ functionParameters.showDefaultParametersUsage();
 functionParameters.showRestArguments();
 functionParameters.showNestedFunctionWithVarargs();
 functionTypes.showSumFunctionWithThrowableError();
+functionAsObjects.showFunctionAsObject();
+functionAttribute.uniqueIntegerCall();
 
 
