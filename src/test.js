@@ -42,6 +42,7 @@ const functionParameters = require('./8/3/DefaultAndRestArguments');
 const functionTypes = require('./8/3/ArgumentTypesValidation');
 const functionAsObjects = require('./8/3/FunctionsAsObjects');
 const functionAttribute = require('./8/3/FunctionAttributes');
+const closures = require('./8/6/Closures');
 
 integerLiterals();
 floatingPointLiterals();
@@ -122,5 +123,7 @@ functionParameters.showNestedFunctionWithVarargs();
 functionTypes.showSumFunctionWithThrowableError();
 functionAsObjects.showFunctionAsObject();
 functionAttribute.uniqueIntegerCall();
+closures.showScope();
+closures.showScope2()
 
 
