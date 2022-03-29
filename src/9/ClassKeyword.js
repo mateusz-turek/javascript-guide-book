@@ -141,3 +141,5 @@ const showComplex = () => {
 }
 
 showComplex();
+
+module.exports.Complex = Complex;
