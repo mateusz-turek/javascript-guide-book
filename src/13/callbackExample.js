@@ -2,6 +2,8 @@ const https = require("https");
 
 const GET_CURRENCIES_ENDPOINT = 'https://api.coinbase.com/v2/currencies';
 
+
+
 function getCurrencies(url, callbackFunction) {
     let request = https.get(url);
     request.on("response", response => {
